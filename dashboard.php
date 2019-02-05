@@ -28,7 +28,7 @@
 		<!-- Optimização para Mobile -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<!-- Ícone do Site -->
-		<link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
+		<link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon"/>
 		
 	</head>
 
@@ -111,7 +111,7 @@
 					</div>
 					<div class="col s4">
 						<div class="card small z-depth-4">
-							<a href="#"><div class="card-image">
+							<a href="https://www.youtube.com/watch?v=_HvBwdgrHCE"><div class="card-image">
 								<img src="assets/img/video2.png">
 							</div></a>
 							<div class="card-content">
@@ -121,7 +121,7 @@
 					</div>
 					<div class="col s5">
 						<div class="card small z-depth-4">
-							<a href="#"><div class="card-image">
+							<a href="https://www.youtube.com/watch?v=4sILajB7rmA"><div class="card-image">
 								<img src="assets/img/video4.png">
 							</div></a>
 							<div class="card-content">

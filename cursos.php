@@ -76,7 +76,7 @@
 					</div>
 					<div class="col s4">
 						<div class="card small z-depth-4">
-							<a href="#"><div class="card-image">
+							<a href="https://www.youtube.com/watch?v=_HvBwdgrHCE"><div class="card-image">
 								<img src="assets/img/video2.png">
 							</div></a>
 							<div class="card-content">
@@ -86,11 +86,37 @@
 					</div>
 					<div class="col s5">
 						<div class="card small z-depth-4">
-							<a href="#"><div class="card-image">
+							<a href="https://www.youtube.com/watch?v=4sILajB7rmA"><div class="card-image">
 								<img src="assets/img/video4.png">
 							</div></a>
 							<div class="card-content">
 								<p class="fonte18"><b> Campo sustentável - Módulo 1 </b></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			<!-- Término Big Card -->
+			<!-- Começo Big Card -->
+				<div class="row">
+					<div class="3"></div>
+					<div class="col s3"></div>
+					<div class="col s5">
+						<div class="card small z-depth-4">
+							<a href="https://www.youtube.com/watch?v=QI79fMurghs"><div class="card-image">
+								<img src="assets/img/video5.png">
+							</div></a>
+							<div class="card-content">
+								<p class="fonte18"><b> Curso sobre plantação de morangos - Módulo 1 </b></p>
+							</div>
+						</div>
+					</div>
+					<div class="col s4">
+						<div class="card small z-depth-4">
+							<a href="https://www.youtube.com/watch?v=uDxYI4eZRNU"><div class="card-image">
+								<img src="assets/img/video6.png">
+							</div></a>
+							<div class="card-content">
+								<p class="fonte18"><b> Curso sobre a plantação do alface - Módulo 1 </b></p>
 							</div>
 						</div>
 					</div>

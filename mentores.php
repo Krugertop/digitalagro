@@ -79,10 +79,10 @@
 							<div class="card-content white-text">
 								<span class="card-title black-text"><img class="circle responsive-img" src="assets/img/avatar.png" width="50px" height="50px"><b> David James </b></span>
 								<p class="black-text"> Cascavel <br>
-								Celular: (45)99987-6334</p>
+								Celular: (45)99987-6334 </p>
 							</div>
 							<div class="card-action">
-								<a href="#modal1" class="modal-trigger"><i class="material-icons black-text">chat</i></a>
+								<a href="mensagens.php"><i class="material-icons black-text">chat</i></a>
 								<a class="black-text"> Chat ativo. </a>
 							</div>
 						</div>
@@ -95,7 +95,7 @@
 								Celular: (45)99891-2291 </p>
 							</div>
 							<div class="card-action">
-								<a href="#modal2" class="modal-trigger"><i class="material-icons black-text">chat</i></a>
+								<a href="mensagens.php"><i class="material-icons black-text">chat</i></a>
 								<a class="black-text"> Chat ativo. </a>
 							</div>
 						</div>
@@ -113,7 +113,7 @@
 								Celular: (45)99998-1028 </p>
 							</div>
 							<div class="card-action">
-								<a href="#"><i class="material-icons black-text">chat</i></a>
+								<a href="#erro" class="modal-trigger"><i class="material-icons black-text">chat</i></a>
 							</div>
 						</div>
 					</div>
@@ -125,7 +125,7 @@
 								Celular: (45)99936-3006 </p>
 							</div>
 							<div class="card-action">
-								<a href="#"><i class="material-icons black-text">chat</i></a>
+								<a href="#erro" class="modal-trigger"><i class="material-icons black-text">chat</i></a>
 							</div>
 						</div>
 					</div>
@@ -142,7 +142,7 @@
 								Celular: (45)99824-5628 </p>
 							</div>
 							<div class="card-action">
-								<a href="#"><i class="material-icons black-text">chat</i></a>
+								<a href="#erro" class="modal-trigger"><i class="material-icons black-text">chat</i></a>
 							</div>
 						</div>
 					</div>
@@ -154,61 +154,23 @@
 								Celular: (45)99939-4117 </p>
 							</div>
 							<div class="card-action">
-								<a href="#"><i class="material-icons black-text">chat</i></a>
+								<a href="#erro" class="modal-trigger"><i class="material-icons black-text">chat</i></a>
 							</div>
 						</div>
 					</div>
 				</div>
 			<!-- Término Terceiro e Quarto Card -->
 					
-			<!-- Começo Modal David -->
-				<div id="modal1" class="modal">
+			<!-- Começo Modal Erro -->
+				<div id="erro" class="modal">
 					<div class="modal-content">
-						<div class="container">
-							<img src="assets/img/avatar.png" alt="Avatar">
-							<p> Oi Gabriel! Como vai sua plantação?</p>
-							<span class="time-right">14:56</span>
-						</div>
-						<div class="container darker">
-							<img src="assets/img/me.jpg" alt="Avatar" class="right">
-							<p> Oi David. Tudo bem, graças aos seus conselhos!</p>
-							<span class="time-left">14:57</span>
-						</div>
-						<div class="input-field col s3">
-							<input id="mensagem" type="text" class="validate">
-							<label for="mensagem"> Mensagem </label>
-						</div>
+						<h3 class="fonteee"> Você não tem mensagens nesse chat! :( </h3>
 					</div>
 					<div class="modal-footer">
-						<a href="#!" class="modal-close waves-effect waves-green btn-flat"> Enviar </a>
 						<a href="#!" class="modal-close waves-effect waves-green btn-flat"> Fechar </a>
 					</div>
 				</div>
-			<!-- Término Modal David -->
-			<!-- Começo Modal Tony -->
-				<div id="modal2" class="modal">
-					<div class="modal-content">
-						<div class="container">
-							<img src="assets/img/avatar-1.png" alt="Avatar">
-							<p> Olá. Você conseguiu plantar os morangos? </p>
-							<span class="time-right">14:21</span>
-						</div>
-						<div class="container darker">
-							<img src="assets/img/me.jpg" alt="Avatar" class="right">
-							<p> Sim, consegui! Muito obrigado!</p>
-							<span class="time-left">14:23</span>
-						</div>
-						<div class="input-field col s3">
-							<input id="mensagem" type="text" class="validate">
-							<label for="mensagem"> Mensagem </label>
-						</div>
-					</div>
-					<div class="modal-footer">
-						<a href="#!" class="modal-close waves-effect waves-green btn-flat"> Enviar </a>
-						<a href="#!" class="modal-close waves-effect waves-green btn-flat"> Fechar </a>
-					</div>
-				</div>
-			<!-- Término Modal Tony -->					
+			<!-- Término Modal Erro -->	
 			
 			<!-- JQuery -->
 			<script src="assets/js/jquery.js"></script>

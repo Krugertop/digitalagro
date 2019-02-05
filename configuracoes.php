@@ -80,6 +80,22 @@
 				<div class="col s3"></div>
 				<div class="col s9">
 				
+					<a href="limpar.php"><div class="card grey lighten-5">
+						<div class="card-content white-text">
+							<span class="card-title black-text"><b> Limpar Minhas Mensagens </b></span>
+							<p class="black-text"> Limpar Mensagens do chat do David e Valentin </p>
+						</div>
+					</div></a>
+				
+				</div>
+					
+			</div>
+					
+			<div class="row">
+					
+				<div class="col s3"></div>
+				<div class="col s9">
+				
 					<div class="card grey lighten-5">
 						<div class="card-content white-text">
 							<span class="card-title black-text"><b> Email </b></span>

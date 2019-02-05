@@ -11,6 +11,16 @@
 	  header('location:index.php');
 	}
 
+	$query = sprintf("SELECT * FROM chat WHERE remetente = 'David'");
+	$dados = mysqli_query($conn, $query) or die(mysqli_error());
+	$linha = mysqli_fetch_assoc($dados);
+	$total = mysqli_num_rows($dados);
+
+	$query1 = sprintf("SELECT * FROM chat WHERE remetente = 'Valentin'");
+	$dados1 = mysqli_query($conn, $query1) or die(mysqli_error());
+	$linha1 = mysqli_fetch_assoc($dados1);
+	$total1 = mysqli_num_rows($dados1);
+
 ?>
 <!doctype html>
 <html>
@@ -109,48 +119,79 @@
 						<div class="container">
 							<img src="assets/img/avatar.png" alt="Avatar">
 							<p> Oi Gabriel! Como vai sua plantação?</p>
-							<span class="time-right">14:56</span>
+							<span class="time-right"> 11:57 </span>
 						</div>
-						<div class="container darker">
+						<?php
+                        	if($total > 0) {
+                            do {
+                         ?>
+                        <div class="container darker">
 							<img src="assets/img/me.jpg" alt="Avatar" class="right">
-							<p> Oi David. Tudo bem, graças aos seus conselhos!</p>
-							<span class="time-left">14:57</span>
+							<p> <?=$linha['mensagem']?> </p>
+							<span class="time-right"><?=$linha['hora']?></span>
 						</div>
-						<div class="input-field col s3">
-							<input id="mensagem" type="text" class="validate">
-							<label for="mensagem"> Mensagem </label>
+                        <?php
+
+                            }while($linha = mysqli_fetch_assoc($dados));
+
+                            }else{
+                                            
+                            }
+									
+                         ?>
+						<form method="POST" action="mensagemd.php">
+							<div class="input-field col s3">
+								<input id="mensagem" type="text" class="validate" name="mensagem">
+								<label for="mensagem"> Mensagem </label>
+							</div>
 						</div>
-					</div>
-					<div class="modal-footer">
-						<a href="#!" class="modal-close waves-effect waves-green btn-flat"> Enviar </a>
-						<a href="#!" class="modal-close waves-effect waves-green btn-flat"> Fechar </a>
-					</div>
+						<div class="modal-footer">
+							<button class="btn waves-effect waves-light green darken-2 white-text" type="submit"> Enviar <i class="material-icons right">keyboard_tab</i></button>
+							<button class="btn waves-effect waves-light green darken-2 white-text modal-close"> Fechar <i class="material-icons right">close</i></button>
+						</div>
+						</form>
 				</div>
 			<!-- Término Modal David -->
-			<!-- Começo Modal Tony -->
+			<!-- Começo Modal Valentin -->
 				<div id="modal2" class="modal">
 					<div class="modal-content">
 						<div class="container">
 							<img src="assets/img/avatar-1.png" alt="Avatar">
 							<p> Olá. Você conseguiu plantar os morangos? </p>
-							<span class="time-right">14:21</span>
+							<span class="time-right"> 12:19 </span>
 						</div>
-						<div class="container darker">
+						
+						<?php
+                        	if($total1 > 0) {
+                            do {
+                         ?>
+                        <div class="container darker">
 							<img src="assets/img/me.jpg" alt="Avatar" class="right">
-							<p> Sim, consegui! Muito obrigado!</p>
-							<span class="time-left">14:23</span>
+							<p> <?=$linha1['mensagem']?> </p>
+							<span class="time-right"><?=$linha1['hora']?></span>
 						</div>
-						<div class="input-field col s3">
-							<input id="mensagem" type="text" class="validate">
-							<label for="mensagem"> Mensagem </label>
+                        <?php
+
+                            }while($linha1 = mysqli_fetch_assoc($dados1));
+
+                            }else{
+                                            
+                            }
+									
+                         ?>
+						<form method="POST" action="mensagemv.php">
+							<div class="input-field col s3">
+								<input id="mensagem" type="text" class="validate" name="mensagem">
+								<label for="mensagem"> Mensagem </label>
+							</div>
 						</div>
-					</div>
-					<div class="modal-footer">
-						<a href="#!" class="modal-close waves-effect waves-green btn-flat"> Enviar </a>
-						<a href="#!" class="modal-close waves-effect waves-green btn-flat"> Fechar </a>
-					</div>
+						<div class="modal-footer">
+							<button class="btn waves-effect waves-light green darken-2 white-text" type="submit"> Enviar <i class="material-icons right">keyboard_tab</i></button>
+							<button class="btn waves-effect waves-light green darken-2 white-text modal-close"> Fechar <i class="material-icons right">close</i></button>
+						</div>
+						</form>
 				</div>
-			<!-- Término Modal Tony -->					
+			<!-- Término Modal Valentin -->					
 			
 			<!-- JQuery -->
 			<script src="assets/js/jquery.js"></script>
