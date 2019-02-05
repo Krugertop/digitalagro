@@ -1,0 +1,13 @@
+.degrade{
+	background-image: linear-gradient(to right, #ADC821, #009760);
+}
+
+.segunda{
+	background-image: url(../img/wall1.png);
+	background-size: cover;
+}
+
+.quarta{
+	background-image: url(../img/wall2.png);
+	background-size: cover;
+}
