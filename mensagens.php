@@ -101,7 +101,7 @@
 						<div class="card grey lighten-5">
 							<div class="card-content white-text">
 								<span class="card-title black-text"><img class="circle responsive-img" src="assets/img/avatar-1.png" width="50px" height="50px"><b> Valentin Salmon </b></span>
-								<p class="black-text"> Cascavel <br>
+								<p class="black-text"> Toledo <br>
 								Celular: (45)99891-2291 </p>
 							</div>
 							<div class="card-action">
