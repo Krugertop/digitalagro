@@ -69,6 +69,7 @@
 				<li><a href="parceiros.php" class="white-text"><i class="material-icons white-text">group</i> Parceiros </a></li>
 				<li><a href="breve.php" class="white-text"><i class="material-icons white-text">date_range</i> Calendários </a></li>
 				<li><a href="configuracoes.php" class="white-text"><i class="material-icons white-text">settings</i> Configurações </a></li>
+				<li><a href="landing/" class="white-text"><i class="material-icons white-text">announcement</i> Landing Page </a></li>
 			</ul>
 		<!-- Término Sidebar -->
 		
